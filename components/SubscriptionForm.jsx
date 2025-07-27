@@ -38,7 +38,7 @@ const SubscriptionForm = (props) => {
         <label>
           <span>Currency</span>
           <select name="currency" value={formData.currency} onChange={handleChange}>
-            {['USD', 'EUR', 'GBP', 'INR', 'AUD'].map((currency, currIndex) => (
+            {['USD'].map((currency, currIndex) => (
               <option key={currIndex}>
                 {currency}
               </option>
